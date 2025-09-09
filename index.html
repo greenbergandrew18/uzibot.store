@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Uzibot - Discord Bot</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0a0a0a;
+      color: #e5e5e5;
+      line-height: 1.6;
+    }
+
+    header {
+      background: radial-gradient(circle at top left, #6a0dad, #1a001f);
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 3.5rem;
+      color: #fff;
+      text-shadow: 0 0 15px rgba(178, 107, 255, 0.8);
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.3rem;
+      color: #bdbdbd;
+    }
+
+    nav {
+      margin-top: 25px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 18px;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #b26bff;
+    }
+
+    section {
+      padding: 70px 20px;
+      text-align: center;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h2 {
+      font-size: 2.2rem;
+      margin-bottom: 25px;
+      color: #b26bff;
+      text-shadow: 0 0 10px rgba(178, 107, 255, 0.5);
+    }
+
+    .grid {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+
+    .card {
+      background: #141414;
+      border-radius: 14px;
+      padding: 25px;
+      width: 280px;
+      box-shadow: 0 0 20px rgba(178, 107, 255, 0.15);
+      transition: transform 0.2s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 0 35px rgba(178, 107, 255, 0.35);
+    }
+
+    .stat h3 {
+      font-size: 2.5rem;
+      margin: 0;
+      color: #fff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 35px 20px;
+      background: #111;
+      color: #777;
+      margin-top: 50px;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 14px 28px;
+      background: linear-gradient(135deg, #4b0082, #6a0dad);
+      color: white;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1rem;
+      box-shadow: 0 0 15px rgba(178, 107, 255, 0.4);
+      transition: transform 0.2s ease, box-shadow 0.3s ease;
+    }
+
+    .button:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 25px rgba(178, 107, 255, 0.7);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Uzibot</h1>
+    <p>Your all-in-one Discord moderation & fun bot</p>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#stats">Stats</a>
+      <a href="#support">Support</a>
+    </nav>
+    <a class="button" href="https://discord.com/api/oauth2/authorize?client_id=1415000017889923092&permissions=8&scope=bot%20applications.commands" target="_blank">
+      Invite Uzibot
+    </a>
+  </header>
+
+  <section id="features">
+    <h2>Features</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Moderation</h3>
+        <p>Kick, ban, jail, mute, purge, and more tools to keep your server safe.</p>
+      </div>
+      <div class="card">
+        <h3>Economy</h3>
+        <p>Blackjack, slots, currency system, and more entertainment features.</p>
+      </div>
+      <div class="card">
+        <h3>Utility</h3>
+        <p>AFK system, timezone support, sniping deleted messages, and more.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="stats">
+    <h2>Uzibot Stats</h2>
+    <div class="grid">
+      <div class="card stat">
+        <h3>125</h3>
+        <p>Servers</p>
+      </div>
+      <div class="card stat">
+        <h3>5400</h3>
+        <p>Users</p>
+      </div>
+      <div class="card stat">
+        <h3>40+</h3>
+        <p>Commands</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="support">
+    <h2>Support</h2>
+    <p>Need help or want to request features? Contact the bot developer directly.</p>
+    <a class="button" href="https://discordapp.com/users/829070775491231795" target="_blank">
+      Contact Support
+    </a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Uzibot. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
